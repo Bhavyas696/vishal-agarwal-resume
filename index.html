@@ -1,95 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Vishal Raj - Resume</title>
   <style>
     body {
       margin: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #0D0D0D;
-      color: #F0F0F0;
-      padding: 40px;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0b0b0e;
+      color: #e5e5e5;
+      padding: 40px 20px;
+      line-height: 1.6;
     }
-    h1, h2 {
-      color: #4169E1; /* Royal Blue */
+    .container {
+      max-width: 900px;
+      margin: auto;
+    }
+    h1 {
+      font-size: 2.5rem;
+      color: #4169e1;
+      margin-bottom: 5px;
+    }
+    h2 {
+      color: #4169e1;
+      margin-bottom: 10px;
     }
     .card {
-      background-color: #1A1A1A;
+      background: #16161a;
+      padding: 20px;
       border-radius: 12px;
-      padding: 25px;
+      box-shadow: 0 4px 10px rgba(65, 105, 225, 0.2);
       margin-bottom: 30px;
-      box-shadow: 0 0 10px rgba(65, 105, 225, 0.3);
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+      transform: scale(1.01);
+    }
+    .section-title {
+      margin-top: 0;
+      font-size: 1.6rem;
+      border-bottom: 1px solid #2c2c2f;
+      padding-bottom: 8px;
     }
     ul {
+      margin: 10px 0;
       padding-left: 20px;
     }
-    .highlight {
-      color: #FFD700;
+    li {
+      margin-bottom: 6px;
     }
     .contact p {
-      margin: 6px 0;
+      margin: 5px 0;
     }
   </style>
 </head>
 <body>
+  <div class="container">
 
-  <h1>Vishal Raj</h1>
-  <div class="card contact">
-    <p><strong>Phone:</strong> +91 96080 82758</p>
-    <p><strong>Email:</strong> Vishal.agr24@iimb.ac.in</p>
-    <p><strong>Location:</strong> Sheikh Sarai Phase 2, South Delhi</p>
+    <h1>Vishal Raj</h1>
+    <div class="card contact">
+      <p><strong>Phone:</strong> +91 96080 82758</p>
+      <p><strong>Email:</strong> Vishal.agr24@iimb.ac.in</p>
+      <p><strong>Address:</strong> Sheikh Sarai Phase 2, South Delhi</p>
+    </div>
+
+    <div class="card">
+      <h2 class="section-title">Professional Summary</h2>
+      <p>Vishal is pursuing a double degree — B.Com from DU and BBA from IIM Bangalore — combining academic rigor with real-world business insight. With a keen interest in entrepreneurship and digital business, he excels at turning ideas into action. His ability to multitask, lead teams, and execute under pressure sets him apart. He's focused on creating impact and driving value through innovation.</p>
+    </div>
+
+    <div class="card">
+      <h2 class="section-title">Experience</h2>
+      <ul>
+        <li><strong>Metvy Internship:</strong> Revenue Generation Specialist – drove outreach, sales, and strategic conversion.</li>
+        <li><strong>BOACON 2024:</strong> Core Operations Team – led logistics for 1000+ participant event at Rajgir, Bihar.</li>
+        <li><strong>Mata Hiramani Devi Camp:</strong> Team leader – handled operations in community outreach in Deoghar.</li>
+      </ul>
+      <p>Each of these roles helped Vishal build strong operational and communication skills. He worked in high-pressure environments, learning event planning, team dynamics, and problem solving. His experience spans from revenue handling to organizing large-scale events. These roles sharpened his professional maturity and leadership style.</p>
+    </div>
+
+    <div class="card">
+      <h2 class="section-title">Education</h2>
+      <ul>
+        <li><strong>IIM Bangalore:</strong> BBA – Digital Business & Entrepreneurship</li>
+        <li><strong>University of Delhi:</strong> B.Com – Finance Focus</li>
+        <li><strong>Creane Memorial High School:</strong> 12th – 79%, 10th – 80%</li>
+      </ul>
+      <p>His education reflects a balanced foundation between theory and application. At IIM, he explores business in digital ecosystems, while DU strengthens his commerce fundamentals. Schooling years show early signs of leadership and initiative. With roles like head volunteer and house captain, his leadership roots run deep.</p>
+    </div>
+
+    <div class="card">
+      <h2 class="section-title">Skills</h2>
+      <ul>
+        <li>Marketing – Strategic brand positioning and audience targeting</li>
+        <li>Leadership – Team management and decision-making under pressure</li>
+        <li>Communication – Clear verbal/written skills for all levels of interaction</li>
+        <li>Problem Solving – Logical thinking combined with creative execution</li>
+        <li>Digital Business – Understanding tech-driven markets and tools</li>
+        <li>Social Media Management – Building online presence and engagement</li>
+      </ul>
+      <p>These skills are built through real-life execution and constant learning. Vishal combines analytics with emotional intelligence to lead and adapt. His marketing and digital experience give him an edge in today’s business landscape. He’s tech-savvy, solution-oriented, and confident in collaborative roles.</p>
+    </div>
+
+    <div class="card">
+      <h2 class="section-title">Interests</h2>
+      <ul>
+        <li><strong>Business Management:</strong> Loves solving real-world business problems through smart planning.</li>
+        <li><strong>Politics:</strong> Interested in systems, decision-making, and leadership at societal levels.</li>
+        <li><strong>Team Work:</strong> Thrives in goal-oriented environments with shared ownership and trust.</li>
+        <li><strong>Chess:</strong> Sharpens focus, memory, and strategic thinking — transforms mind to ‘super mode’.</li>
+        <li><strong>Social Interaction:</strong> Believes in learning from people and building value-driven networks.</li>
+      </ul>
+      <p>His interests reflect balance — strategic focus (like chess/politics) and collaborative energy (teamwork/social). He constantly pushes himself to think critically and lead effectively. Whether in business or interaction, he approaches things with curiosity and intent. This mindset shapes him into a future-ready leader.</p>
+    </div>
+
   </div>
-
-  <div class="card">
-    <h2>Professional Summary</h2>
-    <p>Vishal is a highly motivated dual-degree student pursuing <span class="highlight">B.Com from DU</span> and <span class="highlight">BBA from IIM Bangalore</span>. His passion for finance, entrepreneurship, and business strategy drives his academic and extracurricular choices. With a strong blend of analytical and leadership skills, he is committed to building value in every opportunity. He brings focus, innovation, and a team-driven mindset to every challenge he undertakes.</p>
-  </div>
-
-  <div class="card">
-    <h2>Experience</h2>
-    <ul>
-      <li><strong>Mata Hiramani Devi Camp (2024)</strong> – Managed operations and coordinated volunteers during a community health initiative in Deoghar, Jharkhand.</li>
-      <li><strong>BOACON 2024, Rajgir</strong> – Core Operations Team Member for a major medical conference with over 1000+ attendees.</li>
-      <li><strong>Intern at Metvy</strong> – Worked as a Revenue Generation Specialist, building leads and converting users through strategic outreach.</li>
-    </ul>
-    <p>Each role sharpened Vishal’s understanding of real-world operations. He learned how to coordinate teams, solve problems under pressure, and manage time effectively. These experiences taught him people management, event logistics, and customer-focused strategy. It shaped his professional confidence and entrepreneurial execution style.</p>
-  </div>
-
-  <div class="card">
-    <h2>Education</h2>
-    <ul>
-      <li><strong>IIM Bangalore</strong> – BBA (Digital Business & Entrepreneurship)</li>
-      <li><strong>University of Delhi</strong> – B.Com (Finance & Accounting)</li>
-      <li><strong>Creane Memorial High School, Gaya</strong> – 12th: 79% (Commerce), 10th: 80%</li>
-    </ul>
-    <p>His academic journey reflects a focused foundation in finance, economics, and business leadership. He has consistently balanced studies with leadership roles like house captain and school event coordinator. This mix of academic rigor and real engagement prepared him for top-tier business environments. His education blends traditional commerce with modern digital enterprise knowledge.</p>
-  </div>
-
-  <div class="card">
-    <h2>Skills</h2>
-    <ul>
-      <li><strong>Marketing</strong> – Able to position and promote products with compelling narratives and digital tools.</li>
-      <li><strong>Leadership</strong> – Proven track record in team coordination, decision-making, and motivating peers.</li>
-      <li><strong>Communication</strong> – Effective in public speaking, presentations, and professional writing.</li>
-      <li><strong>Problem Solving</strong> – Applies logical reasoning and creativity to handle real-world business challenges.</li>
-      <li><strong>Digital Business</strong> – Familiar with e-commerce, digital ecosystems, and tech-enabled business models.</li>
-      <li><strong>Social Media Management</strong> – Skilled in brand building and engagement across digital platforms.</li>
-    </ul>
-    <p>These skills reflect a modern business toolkit that balances creativity with strategic thinking. Vishal is comfortable leading and executing both online and offline initiatives. His communication skills enhance collaboration and customer engagement. Each skill is developed through real tasks and refined with feedback.</p>
-  </div>
-
-  <div class="card">
-    <h2>Interests</h2>
-    <ul>
-      <li><strong>Business Management</strong> – Passionate about optimizing business processes and creating value in organizations.</li>
-      <li><strong>Politics</strong> – Interested in governance, decision-making systems, and leadership dynamics in society.</li>
-      <li><strong>Team Work</strong> – Believes in collaborative growth and thrives in goal-driven group environments.</li>
-      <li><strong>Chess</strong> – Sharpens critical thinking and decision-making; transforms the brain into strategy mode.</li>
-      <li><strong>Social Interaction</strong> – Enjoys building networks, understanding people, and creating meaningful connections.</li>
-    </ul>
-    <p>These interests reflect Vishal’s holistic personality — a thinker, strategist, and people person. Chess trains his brain for focus and long-term planning. Politics and business management reflect his interest in structure and impact. His interpersonal nature ensures he adapts quickly and builds synergy wherever he goes.</p>
-  </div>
-
 </body>
 </html>
